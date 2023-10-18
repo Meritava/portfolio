@@ -36,9 +36,9 @@ nav li, p, button {
 header {
     background-color: #191d28;
     margin-bottom: 3.4em;
-    /* position: fixed;
+    position: sticky;
     top: 0;
-    left: 0; */
+    z-index: 10px;
 }
 
 span {
