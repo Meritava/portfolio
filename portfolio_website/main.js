@@ -1,6 +1,10 @@
 const menuButton = document.getElementById('menuButton');
 const closeButton = document.getElementById('closeButton');
 const sideBar = document.querySelector('.sideBar');
+const aboutme = document.getElementById('aboutme');
+const projectlink = document.getElementById('projectlink');
+const skilllink = document.getElementById('skilllink');
+const contactlink = document.getElementById('contactlink');
 //a function to make the navbar responsive
 menuButton.addEventListener('click', function() {
     sideBar.style.display = 'flex';
@@ -40,3 +44,17 @@ document.getElementById("contactForm").addEventListener("submit", function(event
     // Open the user's email client with the pre-filled information
     window.location.href = mailtoLink;
 });
+
+// a function to close sidebar when any of the links is clicked
+aboutme.addEventListener('click', function() {
+    sideBar.style.display = 'none'
+})
+projectlink.addEventListener('click', function() {
+    sideBar.style.display = 'none'
+})
+skilllink.addEventListener('click', function() {
+    sideBar.style.display = 'none'
+})
+contactlink.addEventListener('click', function() {
+    sideBar.style.display = 'none'
+})
