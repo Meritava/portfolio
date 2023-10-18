@@ -6,10 +6,10 @@
     <link rel="stylesheet" href="./style.css">
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Personal Portfolio</title>
+    <title>Portfolio Website</title>
 </head>
 <body>
-   <header>
+    <header>
         <nav>
             <p><span>M</span>I</p>
             <ul>
@@ -17,35 +17,38 @@
                 <li class="hideonMobile"><a href="#projects">Projects</a></li>
                 <li class="hideonMobile"><a href="#skills">Skills</a></li>
                 <li class="hideonMobile"><a href="#contact">Contact</a></li>
-                <!-- <li id="menuButton"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li> -->
                 <li id="menuButton"><a href="#"><box-icon name='menu' color="#e7eaef"></box-icon></a></li>
             </ul>
             <ul class="sideBar">
                 <li id="closeButton"><a href="#"> <box-icon name='window-close' color="#e7eaef"></box-icon></a></li>
-                <!-- <li id="closeButton"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li> -->
                 <li><a href="#about-me">About me</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>  
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-   </header>
-   <main>
-       <section id="about-me">
+    </header>
+
+    <main>
+        <!-- about me section -->
+        <section id="about-me">
             <div class="about-me">
                 <p class="hello">Hello, welcome!</p>
                 <h4 class="name">I'm Ishekwene Merit</h4>
-                <p>a web developer skilled in HTML, CSS, JavaScript, Python, and SQL. I'm deeply passionate about creating exceptional web experiences that are not only visually appealing but also highly functional. I believe in the power of collaboration to bring innovative projects to life. Let's work together to make your web visions a reality!</p>
+                <p>a web developer skilled in HTML, CSS, JavaScript, Python, and SQL. I'm deeply passionate about
+                    creating exceptional web experiences that are not only visually appealing but also highly
+                    functional. I believe in the power of collaboration to bring innovative projects to life. Let's work
+                    together to make your web visions a reality!</p>
                 <a href="https://drive.google.com/file/d/1NTrk1zPtaO1uJv8NOjpTPh6GoWuoQLNk/view?usp=share_link"><button>Download CV</button></a>
             </div>
-       </section>
-
-       <section class="projects-sec" id="projects">
-        <div class="project-sec">
-            <h2>Projects</h2>
-            <div class="projects">
-                <div class="project">
-                    <img src="./images/WhatsApp Image 2023-10-11 at 18.01.52_d44c0bb0.jpg" alt="">
+        </section>
+        <!-- project section -->
+        <section>
+            <div class="project-sec">
+                <h2>Projects</h2>
+            <div class="project">
+                <div class="project-cont">
+                    <img src="./images/portfoliophoto.jpg" alt="">
                     <h3>Portfolio <span>Website</span></h3>
                     <p>A personal portfolio website, built using HTML, CSS and Javascript. It shows my skills and previous projects</p>
                     <div class="code-link">
@@ -53,7 +56,7 @@
                         <a href="https://github.com/Meritava/alx_capstone_project"><box-icon type='logo' name='github' size="lg"></box-icon></a>
                     </div>
                 </div>
-                <div class="project">
+                <div class="project-cont">
                     <img src="./images/WhatsApp Image 2023-10-11 at 18.01.52_d44c0bb0.jpg" alt="">
                     <h3>Responsive <span>Landig Page</span></h3>
                     <p>A responsive website, built using HTML and CSS. This project explores the use of CSS grid to create responsive layout </p>
@@ -62,7 +65,7 @@
                         <a href="https://github.com/Meritava/headphones"><box-icon type='logo' name='github' size="lg"></box-icon></a> 
                     </div>
                 </div>
-                <div class="project">
+                <div class="project-cont">
                     <img src="./images/WhatsApp Image 2023-10-11 at 18.01.52_89fd6195.jpg" alt="">
                     <h3>A Nonresponsive <span>Website</span></h3>
                     <p>A nonresponsive website ALX project built using HTML and CSS, to shown a student understanding of basic CSS</p>
@@ -72,106 +75,113 @@
                     </div>
                 </div>
             </div>
+            </div>
+        </section>
+        <!-- skills section -->
+        <section>
+            <div class="skills" id="skills">
+                <h2>Skills</h2>
+                <div class="skill">
+                    <div class="keySkill">
+                        <box-icon class="boxicon" type='logo' name='html5' size="86px" color="#E65100"></box-icon>
+                        <h5>HTML5</h5>
+                    </div>
+                    <div class="keySkill">
+                        <box-icon class="boxicon" type='logo' name='css3' size="86px" color="#0277BD"></box-icon>
+                        <h5>CSS3</h5>
+                    </div>
+                    <div class="keySkill">
+                        <box-icon class="boxicon" type='logo' name='javascript' size="86px" color="#f0DB4F"></box-icon>
+                        <h5>JavaScript</h5>
+                    </div>
+                    <div class="keySkill">
+                        <box-icon class="boxicon" type='logo' name='python' size="86px" color="#387EB8"></box-icon>
+                        <h5>Python</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact section -->
+        <section class="contact" id="contact">
+            <div class="content">
+                <div class="contact-heading">
+                    <h6>Contact <span>me</span></h6>
+                    <p>kindly fill out this form to reach out to me if you need my service</p>
+                </div>
+                <div class="container">
+                    <div class="contact-info">
+                        <div class="box">
+                            <div class="icon"><box-icon name='location-plus' type='solid' color="#eab308"></box-icon>
+                            </div>
+                            <div class="text">
+                                <p>address</p>
+                                <p>Delta State, Nigeria</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="icon"><box-icon type='solid' name='phone' color="#eab308"></box-icon></div>
+                            <div class="text">
+                                <p>phone</p>
+                                <p>+2348125519376</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="icon"><box-icon name='envelope' color="#eab308"></box-icon></div>
+                            <div class="text">
+                                <p>email</p>
+                                <p>meritgeorge1@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form action="" class="" id="contactForm">
+                            <div class="inputField">
+                                <label for=""></label>
+                                <input id="name" type="text" class="input-field" placeholder="name" required>
+                            </div>
+                            <div class="inputField">
+                                <label for=""></label>
+                                <input type="email" class="input-field" placeholder="email" required>
+                            </div>
+                            <div>
+                                <label for=""></label>
+                                <textarea class="text-area input-field" name="" id="message" rows="5"
+                                    placeholder="message" required></textarea>
+                            </div>
+                            <div>
+                                <input type="submit" value="Contact me" class="submit-button">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer section -->
+    <footer>
+        <div class="footerSec">
+            <div class="footer-sec">
+                <div class="back-to-top">
+                    <a href="#"><box-icon name='up-arrow-alt'></box-icon></a>
+                    <p>BACK TO TOP</p>
+                </div>
+                <div class="icons">
+                    <a href="https://www.facebook.com/merit.george.37"><box-icon type='logo'
+                            name='facebook-square'></box-icon></a>
+                    <a href="mailto:meritgeorge!@gmail.com"><box-icon name='envelope'></box-icon></a>
+                    <a
+                        href="https://www.linkedin.com/in/merit-ishekwene-41730b1b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><box-icon
+                            type='logo' name='linkedin-square' color="#eab308"></box-icon></a>
+                    <a href="https://twitter.com/merit_ishekwene"><box-icon type='logo' name='twitter'></box-icon></a>
+                </div>
+                <div>
+                    <p class="footer-para">&#64; Ishekwene Merit All Rights Reserved</p>
+                </div>
+            </div>
         </div>
-       </section>
+    </footer>
 
-       <section>
 
-        <div class="skills" id="skills">
-            <h2>Skills</h2>
-            <div class="skill">
-                <div class="keySkill">
-                    <box-icon class="boxicon" type='logo' name='html5' size="86px" color="#E65100"></box-icon>
-                    <h5>HTML5</h5>
-                </div>
-                <div class="keySkill">
-                    <box-icon class="boxicon" type='logo' name='css3' size="86px" color="#0277BD"></box-icon>
-                    <h5>CSS3</h5>
-                </div>
-                <div class="keySkill">
-                    <box-icon class="boxicon" type='logo' name='javascript' size="86px" color="#f0DB4F"></box-icon>
-                    <h5>JavaScript</h5>
-                </div>
-                <div class="keySkill">
-                    <box-icon class="boxicon" type='logo' name='python' size="86px" color="#387EB8"></box-icon>
-                    <h5>Python</h5>
-                </div>
-            </div>
-        </div>
-       </section>
-       
-       <section class="contact" id="contact">
-        <div class="content">
-            <div class="contact-heading">
-                <h6>Contact <span>me</span></h6>
-                <p>kindly fill out this form to reach out to me if you need my service</p> 
-            </div>
-            <div class="container">
-                <div class="contact-info">
-                    <div class="box">
-                        <div class="icon"><box-icon name='location-plus' type='solid' color="#eab308"></box-icon></div>
-                        <div class="text">
-                            <p>address</p>
-                            <p>Delta State, Nigeria</p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="icon"><box-icon type='solid' name='phone' color="#eab308"></box-icon></div>
-                        <div class="text">
-                            <p>phone</p>
-                            <p>+2348125519376</p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="icon"><box-icon name='envelope' color="#eab308"></box-icon></div>
-                        <div class="text">
-                            <p>email</p>
-                            <p>meritgeorge1@gmail.com</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="contact-form">
-                    <form action="" class="" id="contactForm">
-                        <div class="inputField">
-                            <label for=""></label>
-                            <input id="name" type="text" class="input-field" placeholder="name" required>
-                        </div>
-                        <div class="inputField">
-                            <label for=""></label>
-                            <input type="email" class="input-field" placeholder="email" required>
-                        </div>
-                        <div>
-                            <label for=""></label>
-                            <textarea class="text-area" name="" id="message" cols="28" rows="8" placeholder="message" required></textarea>
-                        </div>
-                        <div>
-                            <input type="submit" value="Contact me" class="submit-button">
-                        </div>
-                    </form>
-                </div>
-            </div>                    
-        </div>
-    </section>
-   </main>
-   <footer>
-    <div class="footerSec">
-        <div class="footer-sec">
-            <div class="back-to-top">
-                <a href="#"><box-icon name='up-arrow-alt'></box-icon></a>
-                <p>BACK TO TOP</p>
-            </div>
-            <div class="icons">
-                <a href="https://www.facebook.com/merit.george.37"><box-icon type='logo' name='facebook-square'></box-icon></a>
-                <a href="mailto:meritgeorge!@gmail.com"><box-icon name='envelope' ></box-icon></a>
-                <a href="https://www.linkedin.com/in/merit-ishekwene-41730b1b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><box-icon type='logo' name='linkedin-square' color="#eab308"></box-icon></a>
-                <a href="https://twitter.com/merit_ishekwene"><box-icon type='logo' name='twitter'></box-icon></a> 
-            </div>
-            <div>
-                <p>&#64; Ishekwene Merit All Rights Reserved</p>
-            </div>
-        </div>
-    </div>
-   </footer>
-    <script src="./main.js"></script>
+    <script src="./../capstone_project/access/main.js"></script>
 </body>
 </html>
