@@ -316,6 +316,10 @@ form {
     line-height: 68px;
 }
 
+#phone-number {
+    color: #f3f4f6;
+}
+
 /* footer section */
 .footerSec {
     width: 90%;
