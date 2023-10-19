@@ -409,4 +409,7 @@ form {
         align-items: flex-start;
         row-gap: 25px;
     }
+    #contactForm {
+        padding: 0 10px;
+    }
 }
